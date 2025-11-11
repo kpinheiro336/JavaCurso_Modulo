@@ -23,6 +23,7 @@ public class HelloWorldExercises {
         System.out.println("\n32 Años\nRojo\nVitoria-Gasteiz");
         // 6. Explora los diferentes System.XXX.println(); más allá de "out".
 
+
         // 7. Utiliza varios println para imprimir una frase.
 
         // 8. Imprime un diseño ASCII (por ejemplo, una cara feliz usando símbolos).
