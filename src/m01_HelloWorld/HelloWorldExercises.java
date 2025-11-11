@@ -1,10 +1,5 @@
 package m01_HelloWorld;
 
-/*
-Module1--HelloWorld
-Exercises
-*/
-
 public class HelloWorldExercises {
 
     public static void main(String[] args) {
