@@ -5,14 +5,27 @@ public class VariablesAndConstantsExercises {
     public static void main(String[] args) {
 
         // 1. Declara una variable de tipo String y asígnale tu nombre.
-        String name = "Kev";
+        String name = "Kevin";
         System.out.println(name);
 
         // 2. Crea una variable de tipo int y asígnale tu edad.
+        int edad = 32;
+        ;
+        System.out.println(edad);
+        ;
 
         // 3. Crea una variable double con tu altura en metros.
+        double altura = 1.76;
+        String medida = " m";
+        System.out.println(altura + medida);
+
+        ;
+
 
         // 4. Declara una variable de tipo boolean que indique si te gusta programar.
+        boolean meGustaProgramar = true;
+
+        ;
 
         // 5. Declara una constante con tu email.
 
