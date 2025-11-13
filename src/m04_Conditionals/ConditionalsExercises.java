@@ -4,8 +4,28 @@ public class ConditionalsExercises {
 
     static void main() {
         // 1. Establece la edad de un usuario y muestra si puede votar (mayor o igual a 18).
+        int age = 7;
+        if (age >= 18) {
+            System.out.println("Puede Votar");
+        } else {
+            System.out.println("No puede votar");
+        }
 
         // 2. Declara dos números y muestra cuál es mayor, o si son iguales.
+        int n1 = 40;
+        int n2 = 40;
+
+        if (n1 > n2) {
+            System.out.println("el " + n1 + " es mayor que " + n2);
+
+        } else if (n1 == n2) {
+            System.out.println("Los dos numeros son iguales");
+
+        } else {
+            System.out.println("falta");
+
+
+        }
 
         // 3. Dado un número, verifica si es positivo, negativo o cero.
 

@@ -62,9 +62,10 @@ public class OperatorsExercises {
         System.out.println((828 < 5) || (4 == 4));
 
         // 7. Combina ambos operadores lógicos.
-        
+        System.out.println((!(15800 > 525) && (4 == 4)));
 
         // 8. Añade alguna negación.
+
 
         // 9. Imprime 3 ejemplos de uso de operadores unarios.
 
