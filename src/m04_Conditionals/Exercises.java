@@ -24,6 +24,7 @@ public class Exercises {
                 break;
             default:
                 System.out.println("No es mi color favorito");
+                
         }
 
 
