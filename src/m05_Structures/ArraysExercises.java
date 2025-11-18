@@ -63,6 +63,8 @@ public class ArraysExercises {
 
 // 8) Declara un array de 3 enteros. Calcula y muestra el resultado de:
 //    array[0] * array[2] - array[1].
+        int[] numeros = {5, 25, 40};
+        System.out.println(numeros[0] * numeros[2] - numeros[1]);
 
 
 // 9) Declara un array de 3 enteros llamado original y otro llamado copia del mismo tamaño.
