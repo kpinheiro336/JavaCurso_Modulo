@@ -2,7 +2,7 @@ package m05_Structures;
 
 import java.util.Arrays;
 
-public class Exercises {
+public class ExplicacionArrays {
     static void main() {
 
         // definicion de arrays
