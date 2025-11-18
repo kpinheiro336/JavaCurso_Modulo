@@ -93,11 +93,20 @@ public class ConditionalsExercises {
 
 
         // 7. Simula un sistema de notas: muestra "Sobresaliente", "Aprobado" o "Suspenso" según la nota (0-100).
-
-        // 8. Escribe un programa que determine si puedes entrar al cine: debes tener al menos 15 años o ir acompañado.
-
-        // 9. Crea un programa que diga si una letra es vocal o consonante.
-
-        // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
+        int nota = 4;
+        if (nota >= 5.9 && nota <= 6) {
+            System.out.println("Aprobado");
+        } else if (nota >= 9 && nota <= 10) {
+            System.out.println("Sobresaliente");
+        } else {
+            System.out.println("Reprovado");
+        }
     }
+
+    // 8. Escribe un programa que determine si puedes entrar al cine: debes tener al menos 15 años o ir acompañado.
+
+    // 9. Crea un programa que diga si una letra es vocal o consonante.
+
+    // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.
 }
+
