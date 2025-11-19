@@ -103,13 +103,15 @@ public class ArrayListsExercises {
 // 8) Crea un ArrayList<Integer> llamado saldos con 2 saldos de cuenta bancaria.
 //    Simula una transferencia de 50 unidades desde la cuenta 0 a la cuenta 1
 //    actualizando los valores con get y set. Muestra los saldos finales.
-        //Falta terminar
+
         ArrayList<Integer> saldos = new ArrayList<>();
         saldos.add(300);
         saldos.add(1000);
-        int transf = saldos.get(1) + 50;
 
-        System.out.println(transf);
+        saldos.set(0, saldos.get(0) - 50);
+        saldos.set(1, saldos.get(1) + 50);
+
+        System.out.println(saldos);
 
 
 // 9) Crea un ArrayList<String> llamado agenda con 2 citas iniciales.
