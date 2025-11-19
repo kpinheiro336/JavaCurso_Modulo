@@ -53,11 +53,28 @@ public class HashMapsExercises {
 //    Elimina una de las salas usando remove y muestra el HashMap resultante
 //    junto con el valor devuelto por remove (la sala eliminada).
         HashMap<Integer, String> salas = new HashMap<>();
+        salas.put(1, "Reuniones");
+        salas.put(2, "Conferencias");
+        salas.put(3, "Baño");
+        System.out.println(salas);
+
+        salas.remove(2);
+        System.out.println(salas);
 
 // 5) Crea un HashMap<String, Boolean> llamado "asistencia" donde la clave
 //    sea el nombre de un alumno y el valor indique si ha asistido (true/false).
 //    Comprueba si un alumno concreto está en el mapa usando containsKey y
 //    muestra un mensaje indicando si hay registro de su asistencia.
+        HashMap<String, Boolean> asistencia = new HashMap<>();
+
+        asistencia.put("Carlos", true);
+        asistencia.put("Amanda", true);
+        asistencia.put("Felipe", false);
+        asistencia.put("Juan", true);
+        asistencia.put("Kevin", false);
+
+        System.out.println(asistencia.containsKey("Carlos"));
+
 
 // 6) Crea un HashMap<String, String> llamado "usuarioRol" que asocie nombres
 //    de usuario con su rol ("USER", "ADMIN", etc.). Comprueba usando
