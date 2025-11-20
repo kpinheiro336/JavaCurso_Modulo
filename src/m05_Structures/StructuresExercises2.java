@@ -98,6 +98,7 @@ public class StructuresExercises2 {
 //    "DELETE" y construye un mensaje:
 //    "READ: true/false — DELETE: true/false".
 // -----------------------------------------------------------
+        String[] permisos = {"READ", "WRITE", "DELETE"};
 
 // -----------------------------------------------------------
 // 7) Un sistema de votos tiene un array con los nombres de dos
