@@ -1,7 +1,5 @@
 package m06_Loops;
 
-import java.util.ArrayList;
-
 public class LoopsExercises {
 
     static void main() {
@@ -13,17 +11,17 @@ public class LoopsExercises {
 //        }
 
         // 2. Usa do-while para mostrar todos los valores de un ArrayList.
-        ArrayList<Integer> valores = new ArrayList<>();
-        valores.add(20);
-        valores.add(12);
-        valores.add(6);
-        valores.add(4);
-        valores.add(258);
-        int index = 0;
-        do {
-            System.out.println(valores);
-            index++;
-        } while (valores.get(0) <= 5);
+//        ArrayList<Integer> valores = new ArrayList<>();
+//        valores.add(20);
+//        valores.add(12);
+//        valores.add(6);
+//        valores.add(4);
+//        valores.add(258);
+//        int index = 0;
+//        do {
+//            System.out.println(valores);
+//            index++;
+//        } while (valores.get(0) <= 5);
 
         // 3. Imprime los múltiplos de 5 del 1 al 50 usando for.
 //        System.out.println("Estos son los multiplos de 5: ");
@@ -32,6 +30,8 @@ public class LoopsExercises {
 //        }
 
         // 4. Recorre un Array de 5 números e imprime la suma total.
+        int[] numeros = {100, 254, 32, 40, 54};
+
 
         // 5. Usa un for para recorrer un Array y mostrar sus valores.
 
