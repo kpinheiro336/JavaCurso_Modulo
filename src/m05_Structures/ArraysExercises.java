@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class ArraysExercises {
     static void main() {
-        // ENUNCIADOS NIVEL MEDIO (SIN LOOPS)
+        // ENUNCIADOS NIVEL MEDIO (SIN LOOPS
+        //
+        // HOLA)
 // ===============================
 
 // 1) Declara un array de 5 enteros para guardar edades, asígnale valores diferentes
