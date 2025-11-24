@@ -107,6 +107,17 @@ public class StructuresExercises2 {
 //    y muestra un mensaje indicando el ganador y su
 //    número de votos.
 // -----------------------------------------------------------
+        String[] candidatos = {"Alejandro", "Sandra"};
+        HashMap<String, Integer> contage = new HashMap<>();
+        contage.put("Alejandro", 20);
+        contage.put("Sandra", 50);
+        if (contage.get("Alejandro") > contage.get("Sandra")) {
+            System.out.println("el candidato tiene mas votos es " + candidatos[0] + "con " + contage.get("Alejandro") + " con votos.");
+        } else {
+            System.out.println("El que tiene mas voto es " + candidatos[1] + " con " + contage.get("Sandra") + " con votos.");
+        }
+
+    }
 
 // -----------------------------------------------------------
 // 8) Una biblioteca guarda en una lista los títulos de los libros
@@ -133,5 +144,5 @@ public class StructuresExercises2 {
 //     estructuras para mostrar, para los dos primeros alumnos,
 //     su nota y si han aprobado o no, con un mensaje como:
 //     "Ana — nota: 7.5 — aprobado: true".
-    }
 }
+
