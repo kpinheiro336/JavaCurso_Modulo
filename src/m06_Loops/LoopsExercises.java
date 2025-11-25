@@ -51,6 +51,7 @@ public class LoopsExercises {
 
         // 6. Usa for-each para recorrer un HashSet y un HashMap.
 
+
         // 7. Imprime los números del 10 al 1 (descendiente) con un bucle for.
 
         // 8. Usa continue para saltar los múltiplos de 3 del 1 al 20.
