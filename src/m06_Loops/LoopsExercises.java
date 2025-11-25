@@ -30,10 +30,24 @@ public class LoopsExercises {
 //        }
 
         // 4. Recorre un Array de 5 números e imprime la suma total.
-        int[] numeros = {100, 254, 32, 40, 54};
-
+//        int[] numeros = {100, 254, 32, 40, 54};
+//        int sumaTotal = 0;
+//        for (int index = 0; index < numeros.length; index++) {
+//            sumaTotal += numeros[index];
+//
+//
+//        }
+//        System.out.println("La suma total de los números es: " + sumaTotal);
+//    }
 
         // 5. Usa un for para recorrer un Array y mostrar sus valores.
+//        int[] valores = {485, 203, 1457, 213, 2, 1};
+//        for (int valor : valores) {
+//            System.out.println(valor);
+//
+//
+//        }
+
 
         // 6. Usa for-each para recorrer un HashSet y un HashMap.
 
@@ -87,3 +101,4 @@ public class LoopsExercises {
         // No puedes usar arrays ni listas; debes controlar el cambio de dirección del bucle manualmente
     }
 }
+

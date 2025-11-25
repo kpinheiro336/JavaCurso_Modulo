@@ -8,7 +8,16 @@ public class LoopsPractice {
 
 //        for (int index = 0; index <= 5; index++) {
 //            System.out.println("Hola Java!");
-        //  }
+//        }
+
+
+//        for (int index = 5; index >= 0; index--) {
+//            System.out.println("Hola Java!");
+//        }
+
+//        for (int index = 0; index <= 10; index += 2) {
+//            System.out.println(index);
+//        }
 
 //        String[] names = {"Josu", "Mikel", "Jonh", "Alex"};
 //        for (int index = 0; index <= names.length - 1; index++) {
@@ -100,7 +109,7 @@ public class LoopsPractice {
 //            number++;
 //        }
 
-        String[] names = {"Josu", "Mikel", "Jonh", "Alex"};
+//        String[] names = {"Josu", "Mikel", "Jonh", "Alex"};
 //        for (int index = 0; index <= names.length - 1; index++) {
 //            System.out.println(names[index]);
 //        }
@@ -132,12 +141,20 @@ public class LoopsPractice {
 //            index++;
 //        }
 
-        int index1 = 6;
-        do {
-            System.out.println("Nombre: prueba");
-            index1++;
-        } while (index1 < 5);
+//        int index1 = 6;
+//        do {
+//            System.out.println("Nombre: prueba");
+//            index1++;
+//        } while (index1 < 6);
 
+        //ejemplos extras
+
+//        int count = 0;
+//        for (int i = 2; i <= 8; i += 2) {
+//            count++;
+//            System.out.println(i);
+//        }
+//        System.out.println(count);
 
     }
 
