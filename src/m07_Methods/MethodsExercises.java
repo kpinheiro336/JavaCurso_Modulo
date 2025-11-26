@@ -19,6 +19,12 @@ public class MethodsExercises {
         int edad = 15;
         System.out.println(esAdolescente(edad));
 
+        String[] cadena = {"Vamos", "que", "tengo", "sueño"};
+        lista(cadena);
+
+        int[] numeros = {25, 30, 45, 4};
+        enteros(numeros);
+
 
     }
 
@@ -64,6 +70,16 @@ public class MethodsExercises {
     }
 
     // 7. Implementa una función que reciba una cadena y retorne su longitud.
+    void lista(String[] cadena) {
+        System.out.println(cadena.length);
+
+    }
+
+    //  8. Crea un método que reciba un array de enteros, calcula su media y lo retorna.
+    void enteros(int[] numeros) {
+        System.out.println((numeros[0] + numeros[1] + numeros[2] + numeros[3]) / 2);
+    }
+
 }
 
 
