@@ -19,10 +19,16 @@ public class ClassesExercises {
         book1.sayinfolibro();
 
         // 4. Crea una clase Car con atributos brand y model y un método showData().
+        Car car1 = new Car("Mercedes-Benz", "Viano");
+        car1.showData();
 
         // 5. Crea una clase Student con atributo score y un método que diga si aprobó (mayor o igual a 60).
+        Student student1 = new Student(30);
+        student1.aprobacion();
 
         // 6. Crea una clase BankAccount con atributo balance y un método deposit() que sume el saldo.
+        BankAccount bankAccount1 = new BankAccount(200, 1500);
+        bankAccount1.deposit();
 
         // 7. Crea una clase Rectangle con métodos para calcular el área y el perímetro.
 
