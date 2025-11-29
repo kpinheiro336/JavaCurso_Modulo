@@ -6,8 +6,8 @@ public class LoopsPractice {
         // Loops
         // for controlado por contadores
 
-//        for (int index = 0; index <= 5; index++) {
-//            System.out.println("Hola Java!");
+//        for (int index = 0; index <= 8; index++){
+//            System.out.println("Hola Java");
 //        }
 
 
@@ -15,13 +15,14 @@ public class LoopsPractice {
 //            System.out.println("Hola Java!");
 //        }
 
-//        for (int index = 0; index <= 10; index += 2) {
+//        for (int index = 0; index <= 10; index += 2){
 //            System.out.println(index);
 //        }
 
-//        String[] names = {"Josu", "Mikel", "Jonh", "Alex"};
-//        for (int index = 0; index <= names.length - 1; index++) {
+//        String[] names = {"Kevin","Joao", "Felipe", "Luciano"};
+//        for(int index = 0; index <= names.length -1; index++){
 //            System.out.println(names[index]);
+//
 //        }
 
         // for-each

@@ -105,6 +105,7 @@ public class ConditionalsExercises {
 
     // 8. Escribe un programa que determine si puedes entrar al cine: debes tener al menos 15 años o ir acompañado.
 
+
     // 9. Crea un programa que diga si una letra es vocal o consonante.
 
     // 10. Usa tres variables a, b, c y muestra cuál es el mayor de las tres.

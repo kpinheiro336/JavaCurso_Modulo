@@ -65,10 +65,22 @@ public class OperatorsExercises {
         System.out.println((!(15800 > 525) && (4 == 4)));
 
         // 8. Añade alguna negación.
+        System.out.println(f != f);
 
 
         // 9. Imprime 3 ejemplos de uso de operadores unarios.
+        int k = 54;
+        int p = 2;
+
+        System.out.println("la suma es " + k++);
+        System.out.println("la resta es: " + --p);
+        System.out.println(!(k > p) );
+
+
 
         // 10. Combina operadores aritméticos, de comparación y lógicos.
+        int m = 25;
+        int n = 900;
+        System.out.println( !(m++ < 900 || n < m));
     }
 }

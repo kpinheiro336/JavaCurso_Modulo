@@ -23,9 +23,14 @@ public class VariablesAndConstantsExercises {
 
 
         // 4. Declara una variable de tipo boolean que indique si te gusta programar.
-        boolean meGustaProgramar = true;
+        boolean meGustaProgramar = false;
+        if (meGustaProgramar) {
+            System.out.println("Genial, continua estudiando");
+        } else {
+    System.out.println("Que pena que no te guste");
+}
 
-        ;
+
 
         // 5. Declara una constante con tu email.
 

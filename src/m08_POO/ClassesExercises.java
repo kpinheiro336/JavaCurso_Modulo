@@ -1,5 +1,7 @@
 package m08_POO;
 
+import m05_Structures.Product;
+
 public class ClassesExercises {
     static void main() {
 
@@ -36,10 +38,17 @@ public class ClassesExercises {
 
 
         // 8. Crea una clase Worker que reciba nombre y salario, y un método para mostrar su salario.
+        Worker worker1 = new Worker("Alfonso", 2000);
+        worker1.mostrarsalario();
+
 
         // 9. Crea varios objetos Person y guárdalos en un ArrayList.
+        PersonList personList1 = new PersonList("Luciano", "Antonio", "Felipe", "Daniela");
+        personList1.arrayperson();
 
         // 10. Crea una clase Product y un método que aplique un descuento sobre su precio.
+        Product product1 = new Product("Lejia",25.50, 0.2);
+        product1.resultado();
 
         // 11. Crea una clase Laptop con atributos brand, ramGB y price.
         //    Añade un método upgradeRam(int extra) que aumente la RAM sin superar 64GB.
