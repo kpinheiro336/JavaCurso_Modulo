@@ -6,6 +6,7 @@ public class ClassesPractice {
         person1.sayHello();
         person1.sayHelloWithAge();
 
+
         Vehicle car1 = new Vehicle("Mikel", 4, 3, "7654HBN");
         car1.accelerate(100);
 

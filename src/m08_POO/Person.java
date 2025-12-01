@@ -2,11 +2,11 @@ package m08_POO;
 
 public class Person {
     //Atribbutes
-    String name;
-    int age;
+    private String name;
+    String genre;
+    private int age;
     double heigh;
     double weight;
-    String genre;
 
 
     //Constructor
@@ -19,6 +19,24 @@ public class Person {
 
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
     //Methods
     public void sayHello() {
         System.out.println("Hello!");
@@ -28,4 +46,9 @@ public class Person {
     public void sayHelloWithAge() {
         System.out.println("Hello, my age is: " + this.age);
     }
+
+    public void sayName() {
+        System.out.println("hello my name is: " + this.name);
+    }
+
 }

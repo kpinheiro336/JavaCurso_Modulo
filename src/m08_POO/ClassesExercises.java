@@ -1,15 +1,16 @@
 package m08_POO;
 
-import m05_Structures.Product;
-
 public class ClassesExercises {
     static void main() {
 
 
         // 1. Crea una clase Book con atributos title y author. Crea un objeto y muestra sus datos.
         Book book1 = new Book("Principios", "Ray Dalio", "2002", "Finanzas");
-        book1.sayinfolibro2();
 
+        book1.sayinfolibro2();
+//        book1.getAño();
+//        System.out.println(book1.getAño());
+        //aqui se pone lo que se hace en la parte del constructor el get o set para poder acceder la información aunque este privada
 
         // 2. Crea una clase Dog con un método bark() que imprima su sonido.
         Dog dog1 = new Dog("Lilo", "Bull Dog Frances", 25, 10);
@@ -47,11 +48,12 @@ public class ClassesExercises {
         personList1.arrayperson();
 
         // 10. Crea una clase Product y un método que aplique un descuento sobre su precio.
-        Product product1 = new Product("Lejia",25.50, 0.2);
+        Product product1 = new Product("Lejia", 25.50, 0.2);
         product1.resultado();
 
         // 11. Crea una clase Laptop con atributos brand, ramGB y price.
         //    Añade un método upgradeRam(int extra) que aumente la RAM sin superar 64GB.
+
 
         // 12. Crea una clase MusicTrack con atributos title y duration (en segundos).
         //    Añade un método getFormattedDuration() que devuelva "min:seg".
