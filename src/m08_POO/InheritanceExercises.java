@@ -14,8 +14,15 @@ public class InheritanceExercises {
 
 
 // 2. Crea la clase Vehicle con move(). Car y Bike deben sobrescribirlo con mensajes distintos.
+        Bike01 bike01 = new Bike01("Btwin", "Bicicleta", 25.6);
+        bike01.move();
+
+        Car01 car01 = new Car01("Mercedes", "coche", 25.4);
+        car01.move();
+
 
 // 3. Person tiene greet(). Student y Teacher sobrescriben greet() de forma diferente.
+
 
 // 4. Shape tiene draw(). Circle y Square lo sobrescriben. Crea un método que reciba un Shape y llame a draw().
 
