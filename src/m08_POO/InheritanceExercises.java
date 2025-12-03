@@ -22,6 +22,11 @@ public class InheritanceExercises {
 
 
 // 3. Person tiene greet(). Student y Teacher sobrescriben greet() de forma diferente.
+        Student02 student02 = new Student02("Kevin", 32, 1.76);
+        student02.greet();
+
+        Teacher02 teacher02 = new Teacher02("Stella", 40, 1.75);
+        teacher02.greet();
 
 
 // 4. Shape tiene draw(). Circle y Square lo sobrescriben. Crea un método que reciba un Shape y llame a draw().

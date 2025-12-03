@@ -13,7 +13,7 @@ public class Person02 {
     }
 
     public void greet() {
-        System.out.println("aloooo");
+
 
     }
 
@@ -25,5 +25,21 @@ class Student02 extends Person02 {
         super(name, age, height);
     }
 
+    @Override
+    public void greet() {
+        System.out.println("hola, estoy estudiando Java" + "me llamo: " + this.name);
 
+    }
+
+}
+
+class Teacher02 extends Person02 {
+    public Teacher02(String name, int age, double height) {
+        super(name, age, height);
+    }
+
+    @Override
+    public void greet() {
+        System.out.println("Hola, voy a dar clases de Java hoy," + " tengo: " + this.age + " años, y me llamo " + this.name);
+    }
 }
