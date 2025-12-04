@@ -12,6 +12,7 @@ public class InstanciaEmpleado {
 
         for (Empleado emp : listaEmpleados) {
 
+
             System.out.println(emp.realizarTarea());
             System.out.println("Su salario es de: " + emp.calcularSalario() + "€");
         }

@@ -24,7 +24,7 @@ interface Lider {
 }
 
 interface Programador {
-    void programar();
+    String programar();
 }
 
 interface Vendedor {
@@ -55,8 +55,8 @@ class Teamlead extends Empleado implements Lider, Programador {
     }
 
     @Override
-    public void programar() {
-        System.out.println(nombre + " antes de la reunión está programando las lineas de codigo claves para la nueva aplicación");
+    public String programar() {
+        return nombre + " antes de la reunión está programando las lineas de codigo claves para la nueva aplicación";
 
     }
 }
@@ -81,8 +81,8 @@ class BeckendDev extends Empleado implements Programador {
     }
 
     @Override
-    public void programar() {
-        System.out.println("Está programando la app.");
+    public String programar() {
+        return "Está programando la app.";
 
     }
 }
