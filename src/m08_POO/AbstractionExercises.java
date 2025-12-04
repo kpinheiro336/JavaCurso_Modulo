@@ -18,9 +18,13 @@ public class AbstractionExercises {
 
 // 2. Define la clase abstracta Figura con el método abstracto calcularArea().
 //    Crea la interfaz Dibujable con draw() y haz que Circulo y Cuadrado implementen la interfaz y extiendan Figura.
-        Circulo circulo01 = new Circulo(25, 23.5);
+        Circulo circulo01 = new Circulo(25.6);
         circulo01.calcularArea();
-        System.out.println(circulo01.calcularArea() + " m2");
+        System.out.println(circulo01.calcularArea());
+
+        Cuadrado cuadrado01 = new Cuadrado(20.2, 40.3);
+        cuadrado01.calcularArea();
+        System.out.println(cuadrado01.calcularArea());
 
 
 // 3. La clase abstracta Empleado tiene calcularSalario(). La interfaz Responsable define asumirResponsabilidad().
