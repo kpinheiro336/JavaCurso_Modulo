@@ -10,6 +10,7 @@ public class InstanciaEmpleado {
         listaEmpleados.add(new BeckendDev("Maria", 24, 1500));
         listaEmpleados.add(new Comercial("Pablo", 30, 1450));
         listaEmpleados.add(new Comercial("Laura", 34,1450));
+        listaEmpleados.add(new Teamlead("Monica",34, 1600));
 
         for (Empleado emp : listaEmpleados) {
             System.out.println(emp.realizarTarea());
