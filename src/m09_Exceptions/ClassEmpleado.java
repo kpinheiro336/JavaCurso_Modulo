@@ -18,8 +18,10 @@ abstract class Empleado {
     abstract String realizarTarea();
 }
 
+
+
 interface Lider {
-    void dirigirEquipo();
+    String dirigirEquipo();
 
 }
 
@@ -28,7 +30,7 @@ interface Programador {
 }
 
 interface Vendedor {
-    void vendedor();
+    String vendedor();
 }
 
 class Teamlead extends Empleado implements Lider, Programador {
@@ -40,23 +42,25 @@ class Teamlead extends Empleado implements Lider, Programador {
     double calcularSalario() {
         return salarioBase * 2;
 
+
     }
 
     @Override
     String realizarTarea() {
-        return nombre + " Hoy está reuniendo todo el equipo para una reunion sobre una nueva aplicación, a las 16:00 PM";
+        return "- " + nombre + " hoy está reuniendo todo el equipo para una reunion sobre una nueva aplicación, a las 16:00 PM ";
 
 
     }
 
     @Override
-    public void dirigirEquipo() {
+    public String dirigirEquipo() {
+        return "* " + nombre + " antes de la reunion esta reflexionando sobre todo el trabajo que tuvo este año dirigiendo el equipo,";
 
     }
 
     @Override
     public String programar() {
-        return nombre + " antes de la reunión está programando las lineas de codigo claves para la nueva aplicación";
+        return "* " + nombre + " antes de la reunión está programando las lineas de codigo claves para la nueva aplicación";
 
     }
 }
@@ -74,15 +78,15 @@ class BeckendDev extends Empleado implements Programador {
     }
 
     @Override
-    String realizarTarea() {
-        return nombre + " está ayudando directamente al TeamLead en la programación ";
+    public String realizarTarea() {
+        return "- " + nombre + " está ayudando directamente al TeamLead en la programación ";
 
 
     }
 
     @Override
     public String programar() {
-        return "Está programando la app.";
+        return "* " + nombre + " está programando la app.";
 
     }
 }
@@ -100,14 +104,14 @@ class Comercial extends Empleado implements Vendedor {
 
     @Override
     String realizarTarea() {
-        return nombre + "Está haciendo todo el marketing de la app. ";
+        return "- " + nombre + " está haciendo todo el marketing de la app. ";
 
 
     }
 
     @Override
-    public void vendedor() {
-        System.out.println(nombre + " Es un excelente vendedor");
+    public String vendedor() {
+        return "* " + nombre + " es un excelente vendedor";
 
     }
 }
