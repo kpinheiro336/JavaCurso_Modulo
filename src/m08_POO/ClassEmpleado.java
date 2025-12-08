@@ -1,4 +1,4 @@
-package m09_Exceptions;
+package m08_POO;
 
 abstract class Empleado {
     String nombre;
