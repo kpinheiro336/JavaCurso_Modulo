@@ -20,17 +20,21 @@ public class InstanciaEmpleado {
             Teamlead t1 = (Teamlead) emp;
             System.out.println(t1.dirigirEquipo());
             System.out.println(t1.programar());
+            System.out.println(" ");
 
         } else if (emp instanceof BeckendDev) {
             BeckendDev b1 = (BeckendDev) emp;
             System.out.println(b1.programar());
+            System.out.println(" ");
 
         }else if (emp instanceof Comercial){
             Comercial c1 = (Comercial) emp;
             System.out.println(c1.vendedor());
+            System.out.println(" ");
         }
 
         System.out.println("* Su salario es de: " + emp.calcularSalario() + "€");
+            System.out.println(" ");
 
 
         }

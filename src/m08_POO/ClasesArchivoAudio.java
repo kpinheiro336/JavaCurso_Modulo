@@ -1,5 +1,7 @@
 package m08_POO;
 
+import java.time.Duration;
+
 public class ClasesArchivoAudio {
 
     static class mp3 extends ArchivoAudio implements InterfacesArchivoAudio.Descarga, InterfacesArchivoAudio.Stream {
@@ -9,12 +11,17 @@ public class ClasesArchivoAudio {
 
         @Override
         public String reproducir() {
-            return "Reproduciendo: " + " " + nombre + " -" + " " +  artist;
+            return "Reproduciendo: " + nombre + " - " +  artist ;
         }
 
         @Override
         public String getDuracion() {
-            return "Duración: " + duracion;
+            Duration tiempo = Duration.ofSeconds((long) duracion);
+            long minutosTotales = tiempo.toMinutes();
+            long segundosRestantes = tiempo.getSeconds() % 60;
+            return "Tiempo de duración: " + minutosTotales + "m" + " " + segundosRestantes + "s";
+
+
         }
 
         @Override
@@ -24,7 +31,7 @@ public class ClasesArchivoAudio {
 
         @Override
         public String Streamable() {
-            return "Disponible para reproducción solo en Stream: " + nombre + " - " + artist;
+            return "Disponible reproducción solo en Stream: " + nombre + " - " + artist;
         }
     }
 
@@ -35,12 +42,15 @@ public class ClasesArchivoAudio {
 
         @Override
         public String reproducir() {
-            return "Reproduciendo: " + " " + nombre + "-" + " " +  artist;
+            return "Reproduciendo: " + nombre + " - " +  artist ;
         }
 
         @Override
         public String getDuracion() {
-            return "Duración: " + duracion;
+            Duration tiempo = Duration.ofSeconds((long) duracion);
+            long minutosTotales = tiempo.toMinutes();
+            long segundosRestantes = tiempo.getSeconds() % 60;
+            return "Tiempo de duración: " + minutosTotales + "m" + " " + segundosRestantes + "s";
         }
 
         @Override
@@ -56,12 +66,15 @@ public class ClasesArchivoAudio {
 
         @Override
         public String reproducir() {
-            return "Reproduciendo: " + " " + nombre + "-" + " " +  artist;
+            return "Reproduciendo: " + nombre + " - " +  artist  ;
         }
 
         @Override
         public String getDuracion() {
-            return "Duración: " + duracion;
+            Duration tiempo = Duration.ofSeconds((long) duracion);
+            long minutosTotales = tiempo.toMinutes();
+            long segundosRestantes = tiempo.getSeconds() % 60;
+            return "Tiempo de duración: " + minutosTotales + "m" + " " + segundosRestantes + "s";
         }
 
         @Override
