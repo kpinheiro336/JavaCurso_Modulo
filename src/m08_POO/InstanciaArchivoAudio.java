@@ -8,6 +8,7 @@ public class InstanciaArchivoAudio {
         listaArchivoAudio.add(new ClasesArchivoAudio.mp3("Save me", "Remy zero", "Rock", 210));         //duracion : en segundos.
         listaArchivoAudio.add(new ClasesArchivoAudio.flac("Bubbly", "Colbie Caillat", "Relax", 180));
         listaArchivoAudio.add(new ClasesArchivoAudio.RadioEnLinea("Amantes", "Mike Bahia & Greicy", "Latina", 234));
+        listaArchivoAudio.add(new ClasesArchivoAudio.mp3("Nena", "Dani Moreno", "Cumbia", 240));
 
         for (ArchivoAudio music : listaArchivoAudio) {
             System.out.println(music.reproducir());
